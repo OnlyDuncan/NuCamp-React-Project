@@ -1,7 +1,7 @@
 import { CAMPSITES } from '../../app/shared/CAMPSITES';
 
 export const selectCampsiteById = (id) => {
-    return CAMPSITES.find((campsite) => campsite.id === id);
+    return CAMPSITES.find((campsite) => campsite.id === parseInt(id));
 };
 
 export const selectAllCampsites = () => {
