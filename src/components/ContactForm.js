@@ -101,7 +101,7 @@ const ContactForm = () => {
                 </FormGroup>
             </Form>
         </Formik>
-    )
+    );
 }
 
 export default ContactForm;
