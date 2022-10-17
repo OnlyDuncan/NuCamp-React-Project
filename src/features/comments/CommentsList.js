@@ -14,7 +14,7 @@ const CommentsList = ({ campsiteId }) => {
                 {comments.map((comment) => {
                     return <Comment key={comment.id} comment={comment} />;
                 })}
-                <CommentForm campsiteId />
+                <CommentForm campsiteId = { campsiteId } />
             </Col>
         );
     }
